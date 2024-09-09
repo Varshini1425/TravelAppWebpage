@@ -1,0 +1,77 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* reuse classes */
+a {
+  text-decoration: none;
+}
+
+/* header */
+.header {
+  background: url(/travelApp/images/navbar/bgImg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header > div > div:nth-child(2) {
+  color: #ffffff;
+  padding-top: 90px;
+}
+.nav-btn {
+  color: #ffa500;
+  transition: all 0.3s ease;
+}
+.nav-btn:hover {
+  opacity: 0.8;
+  color: #ffffff;
+}
+.nav-btn.active {
+  background-color: #0336ff;
+  color: white;
+  border: none;
+}
+.nav-links a {
+  padding: 0px 20px;
+  text-decoration: none;
+}
+.header > div > div:nth-child(2) h3 {
+  font-weight: 700;
+  font-size: 30px;
+}
+.header > div > div:nth-child(2) h1 {
+  font-weight: 800;
+  font-size: 64px;
+}
+.header > div > div:nth-child(2) a {
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px 20px;
+  background-color: #0336ff;
+}
+.span-yellow {
+  color: #ffa500;
+}
+.child-two p {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.icons i:nth-child(1) {
+  background-color: #ffffff;
+  color: #0336ff;
+  padding: 8px;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 100px;
+}
+.icons i:nth-child(2) {
+  color: #0336ff;
+  padding-left: 80px;
+  font-size: xx-large;
+}
