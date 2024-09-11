@@ -92,7 +92,7 @@ ul li {
 }
 /* content */
 .content {
-  margin-top: 80px;
+  margin-top: 100px;
 }
 .left-column h3 {
   font-weight: 700;
@@ -106,6 +106,9 @@ ul li {
   border-radius: 15px;
 } */
 
+.about-me {
+  padding-bottom: 500px;
+}
 .about-me a {
   background-color: var(--primary);
   /* margin: 0px 80px;
@@ -158,5 +161,39 @@ ul li {
   background-color: var(--primary);
   color: var(--colorWhite);
   padding: 10px 30px;
+  border-radius: 8px;
+}
+@media only screen and (max-width: 991px) {
+  .product-list {
+    text-align: center;
+  }
+  .product-list p,
+  .product-list span {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+.facebook {
+  background-color: #4056ac;
+  color: var(--colorWhite);
+  border-radius: 8px;
+}
+.facebook > div {
+  padding-right: 70px;
+}
+.youtube {
+  background-color: #fe2c3c;
+  color: var(--colorWhite);
+  border-radius: 8px;
+}
+.twitter {
+  background-color: #60b7fe;
+  color: var(--colorWhite);
+  border-radius: 8px;
+}
+.insta {
+  background-color: #e14d93;
+  color: var(--colorWhite);
   border-radius: 8px;
 }
