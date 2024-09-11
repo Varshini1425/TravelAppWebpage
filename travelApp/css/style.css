@@ -19,6 +19,13 @@ ul li {
   list-style: none;
 }
 
+.shadow-box {
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 6px 12px 0px rgba(189, 189, 189, 0.5);
+  border-radius: 15px;
+}
+
 /* header */
 .header {
   background: url(/travelApp/images/navbar/bgImg.svg);
@@ -90,11 +97,13 @@ ul li {
   font-size: 30px;
 }
 /* about-me */
-.about-me {
+/* .about-me {
+  padding: 20px;
   background-color: #ffffff;
   box-shadow: 0px 6px 12px 0px rgba(189, 189, 189, 0.5);
   border-radius: 15px;
-}
+} */
+
 .about-me a {
   background-color: var(--primary);
   /* margin: 0px 80px;
@@ -115,7 +124,7 @@ ul li {
   color: #ffa500;
 }
 /* repeated */
-.right-content > div:nth-child(1) {
+/* .right-content > div:nth-child(1) {
   padding: 20px;
   background-color: #ffffff;
   box-shadow: 0px 6px 12px 0px rgba(189, 189, 189, 0.5);
@@ -126,4 +135,4 @@ ul li {
   background-color: #ffffff;
   box-shadow: 0px 6px 12px 0px rgba(189, 189, 189, 0.5);
   border-radius: 15px;
-}
+} */
