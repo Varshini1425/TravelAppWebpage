@@ -197,3 +197,24 @@ ul li {
   color: var(--colorWhite);
   border-radius: 8px;
 }
+.laptop {
+  background: url(/travelApp/images/content/contentRight/laptop.svg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: var(--colorWhite);
+  height: 350px;
+}
+.laptop h3 {
+  font-weight: 700;
+  padding: 30px 0px 80px 0px;
+}
+.purchase {
+  color: var(--secondry);
+  font-style: oblique;
+}
+.laptop a {
+  background-color: var(--primary);
+  color: var(--colorWhite);
+  padding: 12px 20px;
+  border-radius: 8px;
+}
