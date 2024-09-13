@@ -218,3 +218,10 @@ ul li {
   padding: 12px 20px;
   border-radius: 8px;
 }
+/* places */
+.follow-insta {
+  text-align: center;
+  background-color: var(--primary);
+  color: white;
+  text-decoration: none;
+}
