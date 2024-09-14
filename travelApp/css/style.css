@@ -244,3 +244,27 @@ ul li {
   padding: 8px 12px;
   border-radius: 9px;
 }
+
+/* footer */
+.footer-heading a {
+  color: black;
+  font-weight: 700;
+}
+.footer-2 {
+  background-color: #605f5f;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  color: #eeeeee;
+  padding-bottom: 100px;
+}
+.travel-lists li,
+.account-lists li {
+  margin-bottom: 15px;
+}
+.account-lists {
+  margin-left: -30px;
+}
+.footer-hr {
+  color: #e0e0e0;
+}
