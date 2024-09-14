@@ -225,3 +225,22 @@ ul li {
   color: white;
   text-decoration: none;
 }
+/* join-wrapper */
+.join-wrapper h4 {
+  font-weight: 700;
+}
+.join-wrapper h4 > span:nth-child(1) span {
+  color: var(--primary);
+}
+.email-wrapper input {
+  color: #e0e0e0;
+  border-radius: 9px;
+  border: 1px solid #c4c4c4;
+  padding: 8px 15px;
+}
+.email-wrapper a {
+  background-color: var(--primary);
+  color: var(--colorWhite);
+  padding: 8px 12px;
+  border-radius: 9px;
+}
